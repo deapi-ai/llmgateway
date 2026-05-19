@@ -99,7 +99,7 @@ export const deepseekModels = [
 			},
 			{
 				providerId: "vertex-openai",
-				modelName: "deepseek-ai/deepseek-v3.1-maas",
+				externalId: "deepseek-ai/deepseek-v3.1-maas",
 				region: "us-west2",
 				inputPrice: "0.6e-6",
 				cachedInputPrice: "0.06e-6",
@@ -220,7 +220,7 @@ export const deepseekModels = [
 			},
 			{
 				providerId: "vertex-openai",
-				modelName: "deepseek-ai/deepseek-v3.2-maas",
+				externalId: "deepseek-ai/deepseek-v3.2-maas",
 				region: "global",
 				inputPrice: "0.56e-6",
 				cachedInputPrice: "0.056e-6",
