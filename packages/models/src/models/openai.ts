@@ -737,9 +737,8 @@ export const openaiModels = [
 				vision: false,
 				tools: true,
 				reasoning: true,
-				// Vertex gpt-oss rejects forced tool_choice and wraps schema
-				// responses in a `{"final": "..."}` envelope.
-				jsonOutput: false,
+				jsonOutput: true,
+				// Vertex gpt-oss rejects forced tool_choice.
 				supportedParameters: [
 					"temperature",
 					"max_tokens",
@@ -819,9 +818,8 @@ export const openaiModels = [
 				vision: false,
 				tools: true,
 				reasoning: true,
-				// Vertex gpt-oss rejects forced tool_choice and wraps schema
-				// responses in a `{"final": "..."}` envelope.
-				jsonOutput: false,
+				jsonOutput: true,
+				// Vertex gpt-oss rejects forced tool_choice.
 				supportedParameters: [
 					"temperature",
 					"max_tokens",
